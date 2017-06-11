@@ -10,9 +10,7 @@
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/font-awesome.min.css">
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/swiper.min.css">
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/styles2.css">
-<script src="{$WEB_ROOT}/templates/{$template}/js/jquery.min.js"></script>
-<script src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.min.js"></script>
-<script src="{$WEB_ROOT}/templates/{$template}/js/swiper.jquery.min.js"></script>
+
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
