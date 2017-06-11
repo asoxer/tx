@@ -46,6 +46,8 @@
 <script src="{$WEB_ROOT}/templates/{$template}/js/jquery.min.js"></script>
 <script src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.min.js"></script>
 <script src="{$WEB_ROOT}/templates/{$template}/js/swiper.jquery.min.js"></script>
-
+<script type="text/javascript">
+  $('.dropdown-toggle').dropdown();
+</script>
 </body>
 </html>
