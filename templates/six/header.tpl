@@ -3,8 +3,8 @@
 <head>
     <meta charset="{$charset}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
-
+    <!-- <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title> -->
+    <title>天行VPN官网</title>
     {include file="$template/includes/head.tpl"}
 
     {$headoutput}
@@ -12,7 +12,50 @@
 </head>
 <body>
 
+  <!--div class="alert alert-warning alert-top-warning">
+    由于盗版及侵权行为猖獗，2017年1月13日起 天行VPN 一代相关软件停止研发，主推 天行VPN<sup>pro</sup>，老用户将在客户中心自动升级，新用户请记住我们的品牌，<a href="" target="_blank">点此查看天行VPN声明</a>
+  </div-->
+  <header>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar-collapse" aria-expanded="false">
+                      <span class="sr-only">显示导航</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href=""><img src="./images/logo.png" alt="天行VPN"></a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="header-navbar-collapse">
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="">首页</a></li>
+                      <li><a href="">价格体系</a></li>
+                      <li><a rel="nofollow" href="">购买服务</a></li>
+                      <li><a rel="nofollow" href="">联系我们</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a rel="nofollow" href="">控制面板</a></li>
+                      <li class="dropdown">
+                          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">用户中心&nbsp; <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a rel="nofollow" href="">用户登录</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a rel="nofollow" href="">忘记密码</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+      </nav>
+  </header>
+
 {$headeroutput}
+
 
 <section id="header">
     <div class="container">
