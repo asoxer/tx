@@ -156,6 +156,9 @@ header .navbar-default .navbar-nav > .open > a:hover {
   color: #fff;
   text-decoration: none;
 }
+.login-form {
+  min-width: 400px;
+}
 footer {
   padding: 10px;
   margin-top: 20px;

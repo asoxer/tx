@@ -67,7 +67,7 @@
                             <div class="pull-right nav">
                                 <a href="#" class="quick-nav" data-toggle="popover" id="loginOrRegister" data-placement="bottom"><i class="fa fa-user"></i> {$LANG.login}</a>
                                 <div id="loginOrRegisterContent" class="hidden">
-                                    <form action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form">
+                                    <form class="login-form" action="{if $systemsslurl}{$systemsslurl}{else}{$systemurl}{/if}dologin.php" method="post" role="form">
                                         <div class="form-group">
                                             <input type="email" name="username" class="form-control" placeholder="{$LANG.clientareaemail}" required />
                                         </div>
