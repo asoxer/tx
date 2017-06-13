@@ -84,7 +84,7 @@ a:focus {
 .btn-reverse.primary:hover {
   color: #fff;
   border-color: #66bafc;
-  background: #54b2fc;  
+  background: #54b2fc;
 }
 
 
@@ -128,7 +128,7 @@ header .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
 }
 header .navbar-default .navbar-nav > li > a {
-  text-shadow: none;  
+  text-shadow: none;
 }
 header .navbar-default .navbar-nav > .active > a,
 header .navbar-default .navbar-nav > .open > a,
@@ -144,10 +144,17 @@ header .navbar-default .navbar-nav > .open > a:hover {
   background: #fff;
   color: #333;
 }
-header .nav.navbar-right > li > a {
+/*header .nav.navbar-right > li > a {
   padding-left: 10px;
   padding-right: 10px;
   font-size: .9em;
+}*/
+#top-nav a.quick-nav {
+  display: block;
+  margin: 0 0 0 15px;
+  padding: 14px;
+  color: #fff;
+  text-decoration: none;
 }
 footer {
   padding: 10px;
